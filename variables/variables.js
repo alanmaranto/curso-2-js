@@ -1,3 +1,4 @@
+// Datos primitivos de JS
 var name = 'Alan'; // String
 var age = 10; // Number
 var falso = false; // Boolean
