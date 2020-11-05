@@ -23,23 +23,34 @@ const pop = {
   marca: "funko",
 };
 
-console.log('1' ,amazonCar)
+console.log("1", amazonCar);
 
 //Push
-// Insertar un elemento al final del arreglo y 
+// Insertar un elemento al final del arreglo y
 //retornar la longitud del arreglo
-amazonCar.push(relog)
-console.log('2',amazonCar)
+amazonCar.push(reloj);
+console.log("2", amazonCar);
 
-amazonCar.push(balanza)
-console.log('3', amazonCar)
+amazonCar.push(balanza);
+console.log("3", amazonCar);
 
 // Unshift
 // Inserta un elemento al principio del array
-amazonCar.unshift(pop)
-console.log('4', amazonCar)
+amazonCar.unshift(pop);
+console.log("4", amazonCar);
 
 // Shift
-// Eliminar el primer elemento del arreglo 
+// Eliminar el primer elemento del arreglo
 //y lo retorna (el elemento)
-amazonCar.shift()
+amazonCar.shift();
+
+// Eliminar el ultimo elemento
+amazonCar.pop();
+console.log("5", amazonCar);
+
+// Splice
+// Eliminar elementos del arreglo a partir de una posicion
+const numeros = [1,2,3,4,5,6]
+console.log('al principio mi arreglo es:', numeros)
+numeros.splice(3,3)
+console.log('despues de aplicar splice mi arreglo es:', numeros)

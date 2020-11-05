@@ -32,3 +32,5 @@ console.log('2',newCarrito)
 // Añadir el pop al principio
 newCarrito = [pop, ...newCarrito]
 console.log('3', newCarrito)
+
+// 
